@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>webpack</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="/dist/css/main.css">
+</head>
+<body id="body" style="opacity: 1; min-height: 662px">
+<header style="position: relative; z-index: 3">
+    <div class="container main_menu">
+        <div class="logo logo_left">
+            <a href="/" class="logo_link"
+               style="background: url('/dist/public/images/opac32.svg'); background-size: cover; background-position: center">
+                <!--<img alt="логотип " src="/dist/public/images/log2.svg">-->
+            </a>
+        </div>
+        <div class="menu menu_right">
+            <ul class="menu_links">
+                <li class="menu_links_items"><a  title="главная страница" href="/">Главная</a></li>
+                <li class="menu_links_items"><a title="просмотреть работы" href="/portfolio.html">Портфолио</a></li>
+                <li class="menu_links_items"><a title="почитать обо мне" href="/about.html">Резюме</a></li>
+                <li class="menu_links_items"><a title="мои контакты" href="/contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="mobile_menu_trigger">
+            <div id="mob_trig" class="div_trigger"></div>
+        </div>
+    </div>
+    <div class="mobile_menu">
+        <ul class="menu_links">
+            <li class="menu_links_items"><a title="главная страница" href="/">Главная</a></li>
+            <li class="menu_links_items"><a title="просмотреть работы" href="/portfolio.html">Портфолио</a></li>
+            <li class="menu_links_items"><a title="почитать обо мне" href="/about.html">Резюме</a></li>
+            <li class="menu_links_items"><a title="мои контакты" href="/contacts.html">Контакты</a></li>
+        </ul>
+    </div>
+</header>
+<section id="main_section" style="position: fixed; width: 100%; height: 100%;left: 0; top: 0;">
+    <div class="background_container " style="overflow: hidden">
+        <div class="background_img   current_item"
+             style="background-image: url('/dist/public/images/1-min.jpg');overflow: hidden">
+            <div class="background_overlay"></div>
+        </div>
+        <div class="background_img"
+             style="background-image: url('/dist/public/images/6-min.jpg');overflow: hidden">
+            <div class="background_overlay"></div>
+        </div>
+        <div class="background_img"
+             style="background-image: url('/dist/public/images/3-min.jpg');overflow: hidden">
+            <div class="background_overlay"></div>
+        </div>
+        <div class="background_img "
+             style="background-image: url('/dist/public/images/4-min.jpg'); overflow: hidden">
+            <div class="background_overlay"></div>
+        </div>
+    </div>
+    <div class="slider_content_wr">
+       <div class="slider_container">
+         <div class="row">
+             <div class="portfolio_slid_cont">
+                 <div class="slider_content slider_content_active">
+                     <h1>
+                         Input vs. Output
+                     </h1>
+                     <a href="" title="">
+                         Просмотреть
+                     </a>
+                 </div>
+                 <div class="slider_content">
+                     <h1>
+                         Be a Force of New
+
+                     </h1>
+                     <a href="" title="">
+                         Просмотреть2
+                     </a>
+                 </div>
+                 <div class="slider_content">
+                     <h1>
+                         Fashion Changes, but Style Endures
+                     </h1>
+                     <a href="" title="">
+                         Просмотреть3
+                     </a>
+                 </div>
+                 <div class="slider_content">
+                     <h1>
+
+                         Input vs. Output: How to Set Smarter Goals
+
+                     </h1>
+                     <a href="" title="">
+                         Просмотреть4
+                     </a>
+                 </div>
+                 <div class="slider_nav">
+                     <button id="prev"></button>
+                     <button id="next"></button>
+                 </div>
+             </div>
+         </div>
+       </div>
+    </div>
+</section>
+<script defer src="/dist/main.js"></script>
+</body>
+</html>
